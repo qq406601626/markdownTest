@@ -60,6 +60,43 @@ world
 需要在 > 前添加四个空格(或两个空格)的缩进
 + 第一项
   > 区块内容
+***
+###code
+这是一段`print()函数`代码
+***
+###代码区块：
+用 ``` 包裹一段代码，并指定一种语言（也可以不指定）  
+```javascript
+console.log('hello world')
+```
+***
+###链接：
++ 我的博客地址：[链接](https://www.gswebpage.cn)
++ 我的博客地址是：<https://www.gswebpage.cn>
+***
+###高级链接：
+先声明，有点类似声明脚注  
 
+[1]: http://www.google.com/
+[runoob]: http://www.runoob.com/
+使用变量，有点类似使用脚注，注意区分。  
 
+这个链接用 1 作为网址变量 [Google][1]
+这个链接用 runoob 作为网址变量 [Runoob][runoob]
+然后在文档的结尾为变量赋值（网址）
+***
+###图片：
+语法：
++ 开头一个感叹号 !
++ 接着一个方括号，里面放上图片的替代文字
++ 接着一个普通括号，里面放上图片的网址，最后还可以用引号包住并加上选择性的 'title' 属性的文字。
++ `![alt 属性文本](图片地址)`
+![测试图片提示内容](https://www.gswebpage.cn/images/common/default_article_poster.png)
+当然，你也可以像网址那样对图片网址使用变量:
+> [1]: http://static.runoob.com/images/runoob-logo.png
+> 这个链接用 1 作为网址变量 [RUNOOB][1].
+> 然后在文档的结尾为变量赋值（网址）  
 
+Markdown 还没有办法指定图片的高度与宽度，如果你需要的话，你可以使用普通的 <img> 标签  
+
+<img width="50%" src="http://static.runoob.com/images/runoob-logo.png" >
